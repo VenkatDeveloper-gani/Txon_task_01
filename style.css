@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-image: url('https://res.cloudinary.com/dqt58wdlv/image/upload/v1666579091/mustard-yellow-or-golden-coloured-shining-glittery-merry-christmas-vector-id1320013227_u8kmui.jpg');
+    background-size: cover;
+
+}
+
+header {
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li:hover {
+    background-color: #d9fae9;
+    transform: scale(1.1);
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section ul li {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #75c9ac;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #75c9ac;
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p3 {
+    width: 350px;
+    height: 350px;
+}
+
+.menu-list-styles {
+    font-family: Trebuchet MS;
+    color: black;
+}
